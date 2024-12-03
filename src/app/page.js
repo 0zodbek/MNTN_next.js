@@ -1,4 +1,4 @@
-"use client";
+
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
@@ -36,7 +36,7 @@ function Page() {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial call to set the active section on load
+    handleScroll(); 
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
